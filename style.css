@@ -1,0 +1,69 @@
+body {
+    padding: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+    margin: 100;
+}
+
+ul li {
+position: relative;
+}
+
+li ul {
+    position: relative;
+    nav-down: auto;
+    top: 0;
+    display: none;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    padding: 5px;
+    border: 1px solid;
+}
+
+ul li a:hover {
+    position: absolute;
+}
+
+li:hover ul {
+    display: inline-block;
+}
+
+#principal:hover {
+    background-color: rgb(180, 180, 180);
+    display: none;
+}
+
+.sub:hover {
+    display: block;
+}
+
+#masculino:hover {
+    background-color: green;
+    position: absolute;
+}
+
+#feminino:hover {
+    background-color: green;
+    position: absolute;
+}
+
+.regioes {
+    margin: 10px;
+}
+
+.crud {
+    width: 100%;
+    min-height: 50px;
+    text-align: center;
+    font-size: 50px;
+}
